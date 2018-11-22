@@ -1,0 +1,105 @@
+header {
+    font-family: 'Inter UI', sans-serif;
+
+    .container {
+        .row {
+            .col-4 {
+
+                // a {
+                //     background-image: url("../img/heart.png");
+
+                //     background-size: 30px 9px;
+                //     background-size: cover;
+                //     text-decoration: none;
+                //     background-repeat: repeat-x;
+
+
+                // }
+                a {
+
+                    color: black;
+
+                }
+
+                a:active {
+                    text-decoration: underline;
+                    text-decoration-color: $yellow;
+
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                    text-decoration-color: $pink;
+
+                }
+
+
+            }
+
+            .col-7 {
+
+
+                .row {
+                    .col-3 {
+
+                        a {
+                            color: black;
+                        }
+
+                        a:active {
+                            color: $yellow;
+
+
+                        }
+
+                        a:hover {
+                            color: $pink;
+
+
+                        }
+
+                        .about:hover {
+                            font-family: 'Pirata One', cursive;
+                            font-size: 25px;
+                        }
+
+                        .services:hover {
+
+                            font-family: 'Rakkas', cursive;
+                            font-size: 25px;
+                        }
+
+                        .portfolio:hover {
+                            font-family: 'Germania One', cursive;
+                            font-size: 25px;
+
+                        }
+
+                        .contact:hover {
+                            font-family: 'Permanent Marker', cursive;
+                            font-size: 25px;
+
+
+                        }
+
+                    }
+                }
+            }
+
+            .col-1 {
+                a {
+                    color: black;
+                }
+
+                a:active {
+                    color: $pink;
+                }
+
+                a:hover {
+                    color: $yellow;
+                }
+
+            }
+        }
+    }
+}
