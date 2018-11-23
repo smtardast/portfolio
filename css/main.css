@@ -1,6 +1,7 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 header {
   font-family: 'Inter UI', sans-serif;
+  height: 15vh;
 }
 
 header .container .row .col-4 a {
@@ -9,8 +10,8 @@ header .container .row .col-4 a {
 
 header .container .row .col-4 a:active {
   text-decoration: underline;
-  -webkit-text-decoration-color: #ea9de8;
-          text-decoration-color: #ea9de8;
+  -webkit-text-decoration-color: #f2abb0;
+          text-decoration-color: #f2abb0;
 }
 
 header .container .row .col-4 a:hover {
@@ -21,6 +22,7 @@ header .container .row .col-4 a:hover {
 
 header .container .row .col-7 .row .col-3 a {
   color: black;
+  font-size: 20px;
 }
 
 header .container .row .col-7 .row .col-3 a:active {
@@ -28,7 +30,7 @@ header .container .row .col-7 .row .col-3 a:active {
 }
 
 header .container .row .col-7 .row .col-3 a:hover {
-  color: #ea9de8;
+  color: #f2abb0;
 }
 
 header .container .row .col-7 .row .col-3 .about:hover {
@@ -56,11 +58,47 @@ header .container .row .col-1 a {
 }
 
 header .container .row .col-1 a:active {
-  color: #ea9de8;
+  color: #f2abb0;
 }
 
 header .container .row .col-1 a:hover {
   color: #e4ef09;
+}
+
+html {
+  position: relative;
+}
+
+html .intro .container .row .car {
+  width: 300px;
+  height: 200px;
+}
+
+html .intro .container .row .car:hover ~ .title {
+  background-color: #f2abb0;
+}
+
+html .intro .container h1 {
+  color: #e0fa00;
+  font-size: 15vh;
+  position: relative;
+  z-index: 3;
+}
+
+html .intro .container h1:hover {
+  color: #f2abb0;
+}
+
+html .intro .container h1:hover + h2 {
+  color: #add9e6;
+}
+
+html .intro .container h2 {
+  color: #4d9ac2;
+}
+
+html .intro .container h2:hover {
+  color: #d1a79a;
 }
 
 /*!
@@ -73,7 +111,7 @@ header .container .row .col-1 a:hover {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #ea9de8;
+  --pink: #f2abb0;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #e4ef09;
@@ -576,7 +614,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #ea9de8;
+  color: #f2abb0;
   word-break: break-word;
 }
 

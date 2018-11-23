@@ -1,11 +1,50 @@
-.intro{
-    .container{
-        .row{
-            .carousel{
-                .carousel-inner{
-                    
+html {
+    position: relative;
+
+    .intro {
+        .container {
+
+
+            .row {
+                .car {
+
+                    width: 300px;
+                    height: 200px;
+                }
+
+
+                .car:hover~.title {
+                    background-color: #f2abb0;
                 }
             }
+
+
+
+
+            h1 {
+                color: #e0fa00;
+                font-size: 15vh;
+                position: relative;
+                z-index: 3;
+            }
+
+            h1:hover {
+                color: #f2abb0;
+            }
+
+            h1:hover+h2 {
+                color: #add9e6;
+            }
+
+            h2 {
+                color: #4d9ac2;
+            }
+
+            h2:hover {
+                color: #d1a79a;
+            }
+
+            
         }
     }
 }
