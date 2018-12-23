@@ -189,31 +189,37 @@ header .container .row .col-1 a:hover {
 .skills .container .row .charts .container .devchart .html .htmlchart {
   height: 5px;
   background-color: #4d9ac2;
+  width: 0;
 }
 
 .skills .container .row .charts .container .devchart .js .jschart {
   height: 5px;
   background-color: #e4ef09;
+  width: 0;
 }
 
 .skills .container .row .charts .container .devchart .php .phpchart {
   height: 5px;
   background-color: #ad587a;
+  width: 0;
 }
 
 .skills .container .row .charts .container .devchart .dom .domchart {
   height: 5px;
   background-color: #f2abb0;
+  width: 0;
 }
 
 .skills .container .row .charts .container .devchart .vue .vuechart {
   height: 5px;
   background-color: #add9e6;
+  width: 0;
 }
 
 .skills .container .row .charts .container .devchart .laravel .laravelchart {
   height: 5px;
   background-color: #c2d88c;
+  width: 0;
 }
 
 .skills .container .row .dev .devclick {

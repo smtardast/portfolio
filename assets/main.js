@@ -88,8 +88,8 @@ function devdisplay() {
     designchart.classList.add("d-none");
     designchart.classList.remove("d-block");
 
-    devanimate.classList.remove("d-none");
-    designanimate.classList.add("d-none");
+    devanimate.classList.add("full");
+    designanimate.classList.remove("full");
 
 }
 
@@ -100,8 +100,9 @@ function designdisplay() {
     devchart.classList.add("d-none");
     devchart.classList.remove("d-block");
 
-    designanimate.classList.remove("d-none");
-    devanimate.classList.add("d-none");
+    // maste använda en foreach
+    designanimate.classList.add("full");
+    devanimate.classList.remove("full");
 
 }
 
