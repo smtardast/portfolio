@@ -165,6 +165,10 @@ header .container .row .col-1 a:hover {
   height: 95vh;
 }
 
+.skills .container .row .design .designclick {
+  margin-top: 215px;
+}
+
 .skills .container .row .design .designclick:hover {
   color: #db818b;
 }
@@ -173,9 +177,47 @@ header .container .row .col-1 a:hover {
   color: #e4ef09;
 }
 
+.skills .container .row .charts {
+  border: 10px #db818b solid;
+}
+
+.skills .container .row .charts .container .devchart {
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+}
+
 .skills .container .row .charts .container .devchart .html .htmlchart {
   height: 5px;
   background-color: #4d9ac2;
+}
+
+.skills .container .row .charts .container .devchart .js .jschart {
+  height: 5px;
+  background-color: #e4ef09;
+}
+
+.skills .container .row .charts .container .devchart .php .phpchart {
+  height: 5px;
+  background-color: #ad587a;
+}
+
+.skills .container .row .charts .container .devchart .dom .domchart {
+  height: 5px;
+  background-color: #f2abb0;
+}
+
+.skills .container .row .charts .container .devchart .vue .vuechart {
+  height: 5px;
+  background-color: #add9e6;
+}
+
+.skills .container .row .charts .container .devchart .laravel .laravelchart {
+  height: 5px;
+  background-color: #c2d88c;
+}
+
+.skills .container .row .dev .devclick {
+  margin-top: 215px;
 }
 
 .skills .container .row .dev .devclick:hover {

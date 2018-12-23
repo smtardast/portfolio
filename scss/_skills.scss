@@ -4,7 +4,9 @@
     .container {
         .row {
             .design {
-                .designclick {}
+                .designclick {
+                    margin-top: 215px;
+                }
 
                 .designclick:hover {
                     color: $salmon;
@@ -17,13 +19,53 @@
             }
 
             .charts {
+                border: 10px $salmon solid;
 
                 .container {
+
+
                     .devchart {
+                        transition-duration: 5s;
+
                         .html {
                             .htmlchart {
                                 height: 5px;
                                 background-color: $blu;
+                            }
+                        }
+
+                        .js {
+                            .jschart {
+                                height: 5px;
+                                background-color: $yellow;
+                            }
+                        }
+
+                        .php {
+                            .phpchart {
+                                height: 5px;
+                                background-color: $kiss;
+                            }
+                        }
+
+                        .dom {
+                            .domchart {
+                                height: 5px;
+                                background-color: $pink;
+                            }
+                        }
+
+                        .vue {
+                            .vuechart {
+                                height: 5px;
+                                background-color: $lightblu;
+                            }
+                        }
+
+                        .laravel {
+                            .laravelchart {
+                                height: 5px;
+                                background-color: $arta;
                             }
                         }
                     }
@@ -32,7 +74,9 @@
             }
 
             .dev {
-                .devclick {}
+                .devclick {
+                    margin-top: 215px;
+                }
 
                 .devclick:hover {
                     color: $salmon;

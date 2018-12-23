@@ -18,6 +18,10 @@ var devclick = document.querySelector(".devclick");
 
 var designclick = document.querySelector(".designclick");
 
+var devanimate = document.querySelectorAll(".devanimate");
+
+var designanimate = document.querySelectorAll(".designanimate");
+
 
 function change() {
     if (pie.classList.contains("d-block")) {
@@ -77,29 +81,37 @@ function hearts() {
     }
 };
 
-function changechart() {
-    if (devchart.classList.contains("d-block")) {
-        devchart.classList.toggle("d-block");
-        devchart.classList.toggle("d-none");
+function devdisplay() {
+    devchart.classList.add("d-block");
+    devchart.classList.remove("d-none");
 
-        designchart.classList.toggle("d-block");
-        designchart.classList.toggle("d-none");
-    } else {
-        designchart.classList.toggle("d-block");
-        designchart.classList.toggle("d-none");
+    designchart.classList.add("d-none");
+    designchart.classList.remove("d-block");
 
-        devchart.classList.toggle("d-block");
-        devchart.classList.toggle("d-none");
-    }
+    devanimate.classList.remove("d-none");
+    designanimate.classList.add("d-none");
+
+}
+
+function designdisplay() {
+    designchart.classList.add("d-block");
+    designchart.classList.remove("d-none");
+
+    devchart.classList.add("d-none");
+    devchart.classList.remove("d-block");
+
+    designanimate.classList.remove("d-none");
+    devanimate.classList.add("d-none");
+
 }
 
 
 
 pumpkin.addEventListener("click", change);
 
-designclick.addEventListener("click", changechart);
+designclick.addEventListener("click", designdisplay);
 
-devclick.addEventListener("click", changechart);
+devclick.addEventListener("click", devdisplay);
 
 
 // var text = new Blotter.Text("Sara Tardast", {
