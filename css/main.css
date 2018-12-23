@@ -10,6 +10,8 @@ header .container .row .col-4 a {
 
 header .container .row .col-4 a:active {
   text-decoration: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
   -webkit-text-decoration-color: #f2abb0;
           text-decoration-color: #f2abb0;
 }
@@ -65,40 +67,132 @@ header .container .row .col-1 a:hover {
   color: #e4ef09;
 }
 
-html {
-  position: relative;
+.intro {
+  height: 85vh;
 }
 
-html .intro .container .row .car {
+.intro .container .row .car {
   width: 300px;
   height: 200px;
 }
 
-html .intro .container .row .car:hover ~ .title {
+.intro .container .row .car:hover ~ .title {
   background-color: #f2abb0;
 }
 
-html .intro .container h1 {
+.intro .container h1 {
   color: #e0fa00;
   font-size: 15vh;
   position: relative;
   z-index: 3;
 }
 
-html .intro .container h1:hover {
+.intro .container h1:hover {
   color: #f2abb0;
 }
 
-html .intro .container h1:hover + h2 {
+.intro .container h1:hover + h2 {
   color: #add9e6;
 }
 
-html .intro .container h2 {
+.intro .container h2 {
   color: #4d9ac2;
 }
 
-html .intro .container h2:hover {
+.intro .container h2:hover {
   color: #d1a79a;
+}
+
+.about {
+  height: 95vh;
+}
+
+.about img {
+  height: 402px;
+}
+
+.about .pumpkin {
+  color: #ad587a;
+  font-size: 10vh;
+}
+
+.about .pie h1 {
+  color: #874861;
+  font-size: 10vh;
+}
+
+.about .pie h3 {
+  color: #4d9ac2;
+}
+
+.about .cream h1 {
+  color: #4d9ac2;
+  font-size: 10vh;
+}
+
+.about .cream h3 {
+  color: #e4ef09;
+}
+
+.about .toffee h1 {
+  color: #e4ef09;
+  font-size: 10vh;
+}
+
+.about .toffee h3 {
+  color: #add9e6;
+}
+
+.about .chocolate h1 {
+  color: #add9e6;
+  font-size: 10vh;
+}
+
+.about .chocolate h3 {
+  color: #f2abb0;
+}
+
+.about .icecream h1 {
+  color: #f2abb0;
+  font-size: 10vh;
+}
+
+.about .icecream h3 {
+  color: #874861;
+}
+
+.skills {
+  height: 95vh;
+}
+
+.skills .container .row .design .designclick:hover {
+  color: #db818b;
+}
+
+.skills .container .row .design .designclick:active {
+  color: #e4ef09;
+}
+
+.skills .container .row .charts .container .devchart .html .htmlchart {
+  height: 5px;
+  background-color: #4d9ac2;
+}
+
+.skills .container .row .dev .devclick:hover {
+  color: #db818b;
+}
+
+.skills .container .row .dev .devclick:active {
+  color: #e4ef09;
+}
+
+.exwork {
+  height: 95vh;
+}
+
+.exwork .container .cando {
+  font-size: 10vh;
+  color: #e0fa00;
 }
 
 /*!

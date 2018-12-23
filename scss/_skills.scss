@@ -1,0 +1,48 @@
+.skills {
+    height: 95vh;
+
+    .container {
+        .row {
+            .design {
+                .designclick {}
+
+                .designclick:hover {
+                    color: $salmon;
+                }
+
+                .designclick:active {
+                    color: $yellow;
+                }
+
+            }
+
+            .charts {
+
+                .container {
+                    .devchart {
+                        .html {
+                            .htmlchart {
+                                height: 5px;
+                                background-color: $blu;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .dev {
+                .devclick {}
+
+                .devclick:hover {
+                    color: $salmon;
+                }
+
+                .devclick:active {
+                    color: $yellow;
+                }
+            }
+
+        }
+    }
+}

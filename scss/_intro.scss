@@ -1,50 +1,49 @@
-html {
-    position: relative;
+.intro {
+    height: 85vh;
+ 
 
-    .intro {
-        .container {
-
-
-            .row {
-                .car {
-
-                    width: 300px;
-                    height: 200px;
-                }
+    .container {
 
 
-                .car:hover~.title {
-                    background-color: #f2abb0;
-                }
+        .row {
+            .car {
+
+                width: 300px;
+                height: 200px;
             }
 
 
-
-
-            h1 {
-                color: #e0fa00;
-                font-size: 15vh;
-                position: relative;
-                z-index: 3;
+            .car:hover~.title {
+                background-color: #f2abb0;
             }
-
-            h1:hover {
-                color: #f2abb0;
-            }
-
-            h1:hover+h2 {
-                color: #add9e6;
-            }
-
-            h2 {
-                color: #4d9ac2;
-            }
-
-            h2:hover {
-                color: #d1a79a;
-            }
-
-            
         }
+
+
+
+
+        h1 {
+            color: #e0fa00;
+            font-size: 15vh;
+            position: relative;
+            z-index: 3;
+        }
+
+        h1:hover {
+            color: #f2abb0;
+        }
+
+        h1:hover+h2 {
+            color: #add9e6;
+        }
+
+        h2 {
+            color: #4d9ac2;
+        }
+
+        h2:hover {
+            color: #d1a79a;
+        }
+
+
     }
 }

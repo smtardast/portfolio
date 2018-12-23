@@ -24,6 +24,9 @@ header {
 
                 a:active {
                     text-decoration: underline;
+                    text-decoration-style: wavy;
+
+
                     text-decoration-color: $pink;
 
                 }
@@ -31,6 +34,8 @@ header {
                 a:hover {
                     text-decoration: underline;
                     text-decoration-color: $yellow;
+                    
+
 
 
                 }

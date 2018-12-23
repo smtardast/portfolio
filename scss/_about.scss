@@ -1,0 +1,75 @@
+.about {
+    height: 95vh;
+
+    img {
+        height: 402px;
+    }
+
+    .pumpkin {
+
+        color: $kiss;
+        font-size: 10vh;
+
+
+
+    }
+
+    .pie {
+        h1 {
+            color: $darkkiss;
+            font-size: 10vh;
+        }
+
+        h3 {
+            color: $blu;
+        }
+
+    }
+
+    .cream {
+        h1 {
+            color: $blu;
+            font-size: 10vh;
+        }
+
+        h3 {
+            color: $yellow;
+        }
+    }
+
+    .toffee {
+        h1 {
+            color: $yellow;
+            font-size: 10vh;
+        }
+
+        h3 {
+            color: $lightblu;
+        }
+    }
+
+    .chocolate {
+        h1 {
+            color: $lightblu;
+            font-size: 10vh;
+        }
+
+        h3 {
+            color: $pink;
+        }
+
+    }
+
+    .icecream {
+        h1 {
+            color: $pink;
+            font-size: 10vh;
+        }
+
+        h3 {
+            color: $darkkiss;
+        }
+    }
+
+
+}
