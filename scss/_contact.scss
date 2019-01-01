@@ -1,0 +1,25 @@
+.contact {
+    height: 85vh;
+
+    .container {
+        .sayhi {
+            font-size: 10vh;
+            color: $kiss;
+        }
+
+
+        label {
+            color: $darkkiss;
+        }
+
+        input {
+            color: $kiss;
+
+        }
+
+        textarea {
+            color: $kiss;
+
+        }
+    }
+}

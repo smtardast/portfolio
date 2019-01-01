@@ -21,65 +21,63 @@
             .charts {
                 border: 10px $salmon solid;
 
-                .full {
-                    width: 100%;
-                }
-
-                .container {
 
 
-                    .devchart {
-                        transition-duration: 5s;
+                // .container {
 
-                        .html {
-                            .htmlchart {
-                                height: 5px;
-                                background-color: $blu;
-                                width: 0;
-                            }
-                        }
 
-                        .js {
-                            .jschart {
-                                height: 5px;
-                                background-color: $yellow;
-                                width: 0;
-                            }
-                        }
+                //     .devchart {
+                //         transition-duration: 5s;
 
-                        .php {
-                            .phpchart {
-                                height: 5px;
-                                background-color: $kiss;
-                                width: 0;
-                            }
-                        }
+                //         .html {
+                //             .htmlchart {
+                //                 height: 5px;
+                //                 background-color: $blu;
 
-                        .dom {
-                            .domchart {
-                                height: 5px;
-                                background-color: $pink;
-                                width: 0;
-                            }
-                        }
+                //             }
+                //         }
 
-                        .vue {
-                            .vuechart {
-                                height: 5px;
-                                background-color: $lightblu;
-                                width: 0;
-                            }
-                        }
+                //         .js {
+                //             .jschart {
+                //                 height: 5px;
+                //                 background-color: $yellow;
 
-                        .laravel {
-                            .laravelchart {
-                                height: 5px;
-                                background-color: $arta;
-                                width: 0;
-                            }
-                        }
-                    }
-                }
+                //             }
+                //         }
+
+                //         .php {
+                //             .phpchart {
+                //                 height: 5px;
+                //                 background-color: $kiss;
+
+                //             }
+                //         }
+
+                //         .dom {
+                //             .domchart {
+                //                 height: 5px;
+                //                 background-color: $pink;
+
+                //             }
+                //         }
+
+                //         .vue {
+                //             .vuechart {
+                //                 height: 5px;
+                //                 background-color: $lightblu;
+
+                //             }
+                //         }
+
+                //         .laravel {
+                //             .laravelchart {
+                //                 height: 5px;
+                //                 background-color: $arta;
+
+                //             }
+                //         }
+                //     }
+                // }
 
             }
 
@@ -100,3 +98,7 @@
         }
     }
 }
+
+// .full {
+//     width: 100%;
+// }
